@@ -1,0 +1,18 @@
+The goal of the hyperplane is to bisect the known data points with minimal distance between itself and each data point. 
+This means that if you were to draw a perpendicular line (90-degree angle) from the hyperplane to every data point on the plot, 
+the distance of each data point would be the smallest possible distance of any potential hyperplane.
+
+In preparation for building a linear regression model, 
+you first need to remove or fill missing values and confirm that the 
+independent variables are those most correlated with the dependent variable. 
+Those same independent variables, however, should not be correlated with each other.
+
+Import libraries
+Import dataset
+Remove variables
+Remove or modify variables with missing values
+Set x and y variables
+Set algorithm
+Find y-intercept and x coefficients
+Predict
+Evaluate
